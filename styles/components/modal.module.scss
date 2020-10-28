@@ -1,0 +1,24 @@
+.modal {
+      background: rgba(0, 0, 0, 0.8);
+      height: 100vh;
+      width: 100vw;
+      display: grid;
+      place-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      padding: 0 5vw;
+
+      div {
+            display: grid;
+            grid-gap: 2rem;
+            place-items: center;
+            background: white;
+            color: black;
+            padding: 2rem;
+
+            h2 {
+                  text-align: center;
+            }
+      }
+}

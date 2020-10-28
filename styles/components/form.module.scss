@@ -1,0 +1,27 @@
+.form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 1rem;
+
+  input {
+    max-width: 239px;
+    height: 44px;
+    border-radius: 22px;
+    padding-left: 1rem;
+    appearance: none;
+    outline: none;
+    border: none;
+  }
+
+  button {
+    width: 80px;
+    height: 44px;
+    border-radius: 22px;
+    color: white;
+    background: #f3603c;
+    appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
